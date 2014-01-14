@@ -160,9 +160,9 @@
 #define CONFIG_MODULE_FORCE_UNLOAD 1
 #define __enabled_CONFIG_MODULE_FORCE_UNLOAD 1
 #define __enabled_CONFIG_MODULE_FORCE_UNLOAD_MODULE 0
-#define CONFIG_CRYPTO_MD4_MODULE 1
-#define __enabled_CONFIG_CRYPTO_MD4 0
-#define __enabled_CONFIG_CRYPTO_MD4_MODULE 1
+#define CONFIG_CRYPTO_MD4 1
+#define __enabled_CONFIG_CRYPTO_MD4 1
+#define __enabled_CONFIG_CRYPTO_MD4_MODULE 0
 #define CONFIG_ARCH_TEGRA 1
 #define __enabled_CONFIG_ARCH_TEGRA 1
 #define __enabled_CONFIG_ARCH_TEGRA_MODULE 0
@@ -595,7 +595,8 @@
 #define __enabled_CONFIG_SERIAL_8250_MODULE 0
 #define __enabled_CONFIG_RTC_DRV_ISL12022 0
 #define __enabled_CONFIG_RTC_DRV_ISL12022_MODULE 0
-#define __enabled_CONFIG_VOLTAGE_CONTROL 0
+#define CONFIG_VOLTAGE_CONTROL 1
+#define __enabled_CONFIG_VOLTAGE_CONTROL 1
 #define __enabled_CONFIG_VOLTAGE_CONTROL_MODULE 0
 #define CONFIG_BCMDHD_MODULE 1
 #define __enabled_CONFIG_BCMDHD 0
@@ -4162,7 +4163,7 @@
 #define CONFIG_MPU_SENSORS_KXTF9 1
 #define __enabled_CONFIG_MPU_SENSORS_KXTF9 1
 #define __enabled_CONFIG_MPU_SENSORS_KXTF9_MODULE 0
-#define CONFIG_LOCALVERSION "GRIMLOCK_0.7"
+#define CONFIG_LOCALVERSION "GRIMLOCK_0.8"
 #define __enabled_CONFIG_RADIO_ADAPTERS 0
 #define __enabled_CONFIG_RADIO_ADAPTERS_MODULE 0
 #define __enabled_CONFIG_KEYBOARD_XTKBD 0
@@ -5589,9 +5590,9 @@
 #define __enabled_CONFIG_USB_NET_DM9601_MODULE 0
 #define __enabled_CONFIG_LDM_PARTITION 0
 #define __enabled_CONFIG_LDM_PARTITION_MODULE 0
-#define CONFIG_CIFS_MODULE 1
-#define __enabled_CONFIG_CIFS 0
-#define __enabled_CONFIG_CIFS_MODULE 1
+#define CONFIG_CIFS 1
+#define __enabled_CONFIG_CIFS 1
+#define __enabled_CONFIG_CIFS_MODULE 0
 #define __enabled_CONFIG_XFRM_USER 0
 #define __enabled_CONFIG_XFRM_USER_MODULE 0
 #define __enabled_CONFIG_SCSI_NSP32 0
